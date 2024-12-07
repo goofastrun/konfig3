@@ -1,0 +1,28 @@
+var1: 10
+var2: 20
+
+array1: [1, 2, 3, 4, 5]
+array2: [ "one", "two", "three" ]
+
+settings:
+  hostname: "server01"
+  ip: "192.168.1.1"
+  ports: [80, 443, 22]
+  config:
+    retries: 5
+    timeout: 30
+
+database:
+  name: "example_db"
+  users: ["admin", "user1", "user2"]
+  connection:
+    host: "localhost"
+    port: 5432
+
+calculation: "?[var1 + 2]"
+subtraction: "?[var2 - 6]"
+multiplication: "?[var2 * var1]"
+mod_example: "?[mod(var2, 3)]"
+concat_example: "?[concat('Hello', ' ', 'World!')]"
+
+stringExample: "Hello, world!"
